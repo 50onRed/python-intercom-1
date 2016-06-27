@@ -3,7 +3,6 @@
 from . import errors
 from datetime import datetime
 
-import certifi
 import json
 import logging
 import requests
@@ -44,7 +43,7 @@ class Request(object):
 
         resp = requests.request(
             method, url, timeout=cls.timeout,
-            auth=auth, verify=certifi.where(), **req_params)
+            auth=auth, **req_params)
 
         # response logging
         if logger.isEnabledFor(logging.DEBUG):

@@ -41,7 +41,6 @@ Runtime Dependencies
 * `Requests <http://python-requests.org/>`_ – an HTTP library “for human beings”
 * `inflection <http://inflection.readthedocs.org/en/latest/>`_ – Inflection is a string transformation library. It singularizes and pluralizes English words, and transforms strings from CamelCase to underscored string.
 * `six <https://bitbucket.org/gutworth/six>`_ – Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions.
-* `certifi <http://certifi.io/>`_ – Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
 Development Dependencies
 ------------------------
