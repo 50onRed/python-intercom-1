@@ -15,7 +15,7 @@ with open('README.rst') as readme:
 
 setup(
     name="python-intercom",
-    version=2.1.1.2,
+    version='2.1.1.2',
     description="Intercom API wrapper",
     long_description=long_description,
     author="John Keyes",
